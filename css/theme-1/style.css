@@ -1,0 +1,71 @@
+/**
+ * CSS Document
+ */
+
+html {
+	background: #F2F4F6;
+	font: 13px Arial;
+}
+
+h1, h2 {
+	font-size: 16px;
+	color: #0061AD;
+	text-align: center;
+}
+
+.container, input, .resultado span {
+	border: 2px solid #BCCEE1;
+	border-radius: 4px;
+}
+ 
+.container {
+	background: transparent url(images/bg-container.png) repeat-x bottom left;
+	width: 300px;
+	padding: 6px 10px;
+	margin: 50px auto;
+	overflow: hidden;
+	min-height: 200px;
+}
+
+.form {
+	float: left;
+}
+
+label {
+    color: #0061AD;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+	display: block;
+	padding: 4px 2px;
+}
+
+button {
+	background: #0092CE;
+	width: 144px;
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 6px;	
+	border: 1px solid #7AB4DB;
+	border-radius: 4px;
+}
+
+.result {
+	width: 145px;
+	text-align: center;
+	float: right;
+	margin-top: 15px;
+}
+
+.result span {
+	width: 70px;
+	background: #F2F4F6;
+	font-size: 24px;
+	color: #0061AD;	
+	padding: 12px 15px;
+	margin-top: 10px;
+	box-shadow: 0 0 6px 1px #BCCEE1 inset;
+}
